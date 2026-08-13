@@ -75,7 +75,7 @@
 
 	<!-- deez are other links -->
 	<div class="mt-6 flex gap-4 font-[Jetbrains_Mono]">
-		<a class="link" href="https://github.com/sudofahh">github</a>
+		<a class="link" href="https://github.com/codewizardmanik">github</a>
 		<a class="link" href="https://www.youtube.com/@m4shing_sm4shing">yt</a>
 		<a class="link" href="https://www.instagram.com/m4shing_sm4shing/">ig</a>
 		<a class="link" href="mailto:m4.sh@tuta.io"> email </a>

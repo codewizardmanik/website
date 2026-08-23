@@ -11,6 +11,8 @@
 		<a href="/posts/me-yapping-about-vehicles.txt" class="link"> second post</a>
 		<br />
 		<a href="/posts/poem-about-a-stray.txt" class="link"> third post</a>
+		<br />
+		<a href="/posts/story6.txt" class="link"> fourth post</a>
 	</div>
 	<p>btw these may/may not remain .txt files</p>
 	<div class="mt-6 flex gap-4 font-[Jetbrains_Mono]">

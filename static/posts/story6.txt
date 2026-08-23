@@ -1,7 +1,9 @@
 based on As the World Caves In.
 a fictional story
 
---
+----
+
+(backstory)
 
 it was the weekend
 fuck yeah babyyyy
@@ -10,7 +12,7 @@ minecraft timeeee
 yo what the fuck is on the news
 hooooly sheeeet
 
-(backstory)
+--
 
 it was coming in basically two hours.
 i was terrified.
@@ -78,4 +80,4 @@ i felt, only calm.
 "thank you the citizens of this nation for listening,
 and we are so sorry for what's going to happen next."
 
---
+----

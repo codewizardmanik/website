@@ -77,7 +77,7 @@
 	<div class="mt-6 flex gap-4 font-[Jetbrains_Mono]">
 		<a class="link" href="https://github.com/codewizardmanik">github</a>
 		<a class="link" href="https://www.youtube.com/@codewizardmanik">yt</a>
-		<a class="link" href="https://www.instagram.com/m4shing_sm4shing/">ig</a>
+		<a class="link" href="https://www.instagram.com/m4n1k.sh/">ig</a>
 		<a class="link" href="mailto:m4.sh@tuta.io"> email </a>
 		<a class="link" href="https://www.linkedin.com/in/manik-sharma-30b4a9419/">linkedin</a>
 		<a class="link" href="https://vncl.xyz">""company"" website</a>

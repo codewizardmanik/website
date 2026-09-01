@@ -56,7 +56,7 @@
 </script>
 
 <svelte:head>
-	<title>webrings</title>
+	<title>sillies!</title>
 	<link
 		rel="stylesheet"
 		href="https://jack-dawlia.neocities.org/page/shrines/portal/aperturewebring/onionring.css"
@@ -69,7 +69,9 @@
 </svelte:head>
 
 <main class="min-h-screen flex flex-col items-center text-center p-4 text-white">
-	<h2 class="text-2xl font-[Instrument_Serif] text-[#81E979] mt-4">sillies!</h2>
+	<h2 class="text-2xl font-[Instrument_Serif] text-[#81E979] mt-4">
+		sillies! (warning: kinda broken)
+	</h2>
 
 	<hr class="w-[80%] my-4 opacity-30" />
 

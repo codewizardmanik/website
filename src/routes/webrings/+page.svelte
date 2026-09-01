@@ -80,6 +80,9 @@
 		<a href="https://notbyai.fyi/"
 			><img src="Scripted-By-a-Human-Not-By-AI-Badge-black.png" alt="Scripted by a human" /></a
 		>
+		<a href="https://people.pledge.party">
+			<img src="people_pledge_badge_seal_black_white_100x100.png" alt="Pledge Party" />
+		</a>
 		<a href="https://www.mabsland.com/Adoption.html">
 			<img
 				src="Censor_Gc.gif"
@@ -138,7 +141,7 @@
 		</div>
 
 		<iframe
-			src="https://maniksharma.xyz/webring-widget.html?site=https://maniksharma.xyz"
+			src="https://codewizardmanik.github.io/website-old/webring-widget.html?site=https://maniksharma.xyz"
 			width="360"
 			height="140"
 			frameborder="0"

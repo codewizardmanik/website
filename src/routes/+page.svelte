@@ -88,7 +88,7 @@
 		>
 	</p>
 	<br />
-	<p class="text-[9px] font-[Jetbrains_Mono]">
+	<p class="text-[10px] font-[Jetbrains_Mono]">
 		<span class="italic">psst</span> want to listen to a banger song?
 		<a href="https://www.youtube.com/watch?v=3eD4CrAmwNk" target="_blank" class="link"
 			>click here (creep x call me maybe)</a

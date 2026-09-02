@@ -68,8 +68,8 @@
 		function updateMarquee() {
 			if (isResetting) {
 				// Move backward quickly until it reaches 0 (the start)
-				leftOffset += 5;
-				rightOffset += 5;
+				leftOffset += 6;
+				rightOffset += 6;
 
 				if (leftOffset >= 0 && rightOffset >= 0) {
 					leftOffset = 0;

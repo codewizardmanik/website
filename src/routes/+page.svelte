@@ -139,18 +139,14 @@
 				href="https://www.instagram.com/m4n1k.sh/"
 				target="_blank">ig</a
 			>
-			<a class="text-[#16e16e] transition-colors hover:underline" href="mailto:m4.sh@tuta.io"
-				>email</a
-			>
+			<a class="transition-colors hover:underline" href="mailto:m4.sh@tuta.io">email</a>
 			<a
 				class="transition-colors hover:underline"
 				href="https://www.linkedin.com/in/manik-sharma-30b4a9419/"
 				target="_blank">linkedin</a
 			>
-			<a
-				class="text-[#16e16e] transition-colors hover:underline"
-				href="https://vncl.xyz"
-				target="_blank">""company"" website</a
+			<a class="transition-colors hover:underline" href="https://vncl.xyz" target="_blank"
+				>""company"" website</a
 			>
 		</div>
 

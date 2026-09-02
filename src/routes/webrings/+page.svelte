@@ -66,7 +66,7 @@
 >
 	<div class="flex flex-col items-center w-full max-w-xl mx-auto py-8">
 		<h2 class="text-5xl font-['Instrument_Serif'] text-[#16e16e] mb-1">sillies!</h2>
-		<p class="text-xs text-gray-400 italic mb-4">(warning: kinda broken)</p>
+		<p class="text-xs text-[#ff69b4] italic mb-4">(warning: kinda broken)</p>
 		<div class="flex flex-wrap justify-center gap-6 text-sm font-['Funnel_Display']">
 			<a class="text-[#16e16e] transition-colors" href="/">/</a>
 			<a class="text-[#16e16e] transition-colors" href="/about">/about</a>

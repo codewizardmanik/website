@@ -11,7 +11,9 @@
 <main
 	class="min-h-screen bg-[#080808] text-white flex flex-col items-center justify-center text-center p-8 selection:bg-[#16e16e] selection:text-black font-['Funnel_Display']"
 >
-	<h1 class="text-5xl font-['Instrument_Serif'] text-[#16e16e] mb-6">nothing here (yet)</h1>
+	<h1 class="text-5xl font-['Instrument_Serif'] text-[#16e16e] mb-6">
+		nothing here <span class="text-[#ff69b4]">(yet)</span>
+	</h1>
 
 	<div class="max-w-xl mx-auto space-y-4 px-4 text-sm md:text-base text-gray-300">
 		<a href="/" class="inline-block mt-2 italic hover:underline text-[#16e16e] transition-colors"

@@ -3,13 +3,13 @@
 	import { fly } from 'svelte/transition';
 
 	const quotes = [
-		'a developer',
-		'a goofy guy',
-		'a student',
-		'a.. what?',
-		'a neeeeeeeeeeeerd',
-		'an exception(e)',
-		'a python coder (spare me)'
+		'aka a developer',
+		'aka a goofy guy',
+		'aka a student',
+		'aka a.. what?',
+		'aka a neeeeeeeeeeeerd',
+		'aka an exception(e)',
+		'aka a python coder (spare me)'
 	];
 
 	let quote = $state(quotes[0]);
@@ -75,11 +75,10 @@
 			<div
 				class="flex items-center justify-center gap-2 font-['Funnel_Display'] text-xl text-white select-none pb-2"
 			>
-				<span>i'm</span>
-				<span class="h-10 w-72 relative overflow-hidden inline-block">
+				<span class="h-10 w-80 relative overflow-hidden inline-block">
 					{#key quote}
 						<span
-							class="font-['Instrument_Serif'] text-[#16e16e] text-3xl absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 inline-block whitespace-nowrap text-center w-full"
+							class="font-['Instrument_Serif'] text-[#ff69b4] text-3xl absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 inline-block whitespace-nowrap text-center w-full"
 							transition:fly={{ y: 15, duration: 300 }}
 						>
 							{quote}

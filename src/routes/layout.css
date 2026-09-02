@@ -10,7 +10,3 @@ main {
 			8 8,
 		auto;
 }
-
-.link {
-	@apply font-[Jetbrains_Mono] text-[#8FBB99] italic hover:underline;
-}

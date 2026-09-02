@@ -16,9 +16,6 @@
 	</h1>
 
 	<div class="max-w-xl mx-auto space-y-4 px-4 text-sm md:text-base text-gray-300">
-		<a href="/" class="inline-block mt-2 italic hover:underline text-[#16e16e] transition-colors"
-			>go back home</a
-		>
 	</div>
 
 	<div class="flex flex-wrap justify-center gap-6 text-sm mt-8 font-['Funnel_Display']">

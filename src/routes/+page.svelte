@@ -78,7 +78,7 @@
 			</div>
 		</div>
 		<div
-			class="absolute bottom-6 left-1/2 -translate-x-1/2 animate-bounce text-xs font-['Funnel_Display'] tracking-widest text-[#16e16e] opacity-80 select-none"
+			class="hidden md:block absolute bottom-6 left-1/2 -translate-x-1/2 animate-bounce text-xs font-['Funnel_Display'] tracking-widest text-[#16e16e] opacity-80 select-none"
 		>
 			scroll down ↓
 		</div>

@@ -117,7 +117,7 @@
 >
 	<!-- LEFT MARQUEE -->
 	<aside
-		class="fixed top-0 bottom-0 left-4 md:left-6 w-10 md:w-12 bg-black z-50 border-x border-white/30 overflow-hidden pointer-events-none select-none flex flex-col items-center"
+		class="hidden md:flex fixed top-0 bottom-0 left-6 w-12 bg-black z-50 border-x border-white/30 overflow-hidden pointer-events-none select-none flex-col items-center"
 	>
 		<div
 			class="absolute flex flex-col items-center whitespace-nowrap will-change-transform"
@@ -140,7 +140,7 @@
 
 	<!-- RIGHT MARQUEE - FACING INWARD -->
 	<aside
-		class="fixed top-0 bottom-0 right-4 md:right-6 w-10 md:w-12 bg-black z-50 border-x border-white/30 overflow-hidden pointer-events-none select-none flex flex-col items-center"
+		class="hidden md:flex fixed top-0 bottom-0 right-6 w-12 bg-black z-50 border-x border-white/30 overflow-hidden pointer-events-none select-none flex-col items-center"
 	>
 		<div
 			class="absolute flex flex-col items-center whitespace-nowrap will-change-transform"
@@ -163,7 +163,7 @@
 	</aside>
 
 	<!-- PAGE CONTENT WRAPPER -->
-	<div class="relative z-10 w-full h-full px-16 md:px-28">
+	<div class="relative z-10 w-full h-full px-6 md:px-28">
 		{@render children()}
 	</div>
 </div>

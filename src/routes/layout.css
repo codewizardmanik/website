@@ -10,3 +10,9 @@ main {
 			8 8,
 		auto;
 }
+
+@media (max-width: 1024px) {
+	#oneko {
+		display: none !important;
+	}
+}

@@ -29,7 +29,7 @@
 </script>
 
 <svelte:head>
-	<title>this is the website of {quote}</title>
+	<title>this is the website of {quote.replace(/^aka\s+/, '')}</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<link

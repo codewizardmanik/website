@@ -118,7 +118,6 @@
 >
 	<!-- LEFT MARQUEE -->
 	<aside
-		data-cursor="haha yes its my website"
 		class="hidden md:flex fixed top-0 bottom-0 left-6 w-12 bg-black z-50 border-x border-white/30 overflow-hidden pointer-events-none select-none flex-col items-center"
 	>
 		<div
@@ -126,7 +125,8 @@
 			style="transform: translateY({leftOffset}px);"
 		>
 			<div
-				class="flex flex-col items-center text-lg md:text-xl font-bold tracking-widest text-white py-2 [writing-mode:vertical-rl]"
+				class="pointer-events-auto flex flex-col items-center text-lg md:text-xl font-bold tracking-widest text-white py-2 [writing-mode:vertical-rl]"
+				data-cursor="hehe my website yes yes how grand"
 			>
 				{marqueeText}
 			</div>
@@ -142,7 +142,6 @@
 
 	<!-- RIGHT MARQUEE - FACING INWARD -->
 	<aside
-		data-cursor="same thing here"
 		class="hidden md:flex fixed top-0 bottom-0 right-6 w-12 bg-black z-50 border-x border-white/30 overflow-hidden pointer-events-none select-none flex-col items-center"
 	>
 		<div
@@ -151,7 +150,8 @@
 		>
 			<!-- Same writing mode as left, but flipped 180° -->
 			<div
-				class="flex flex-col items-center text-lg md:text-xl font-bold tracking-widest text-white py-2 [writing-mode:vertical-rl] rotate-180"
+				class="pointer-events-auto flex flex-col items-center text-lg md:text-xl font-bold tracking-widest text-white py-2 [writing-mode:vertical-rl] rotate-180"
+				data-cursor="here too"
 			>
 				{marqueeText}
 			</div>

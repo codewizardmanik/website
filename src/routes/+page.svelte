@@ -101,12 +101,24 @@
 			</p>
 		</div>
 		<div class="flex flex-wrap justify-center gap-6 text-sm">
-			<a class="text-[#16e16e] transition-colors font-bold" href="/">/</a>
-			<a class="text-[#16e16e] transition-colors hover:underline" href="/about">/about</a>
-			<a class="text-[#16e16e] transition-colors hover:underline" href="/blog">/blog</a>
-			<a class="text-[#16e16e] transition-colors hover:underline" href="/projects">/projects</a>
-			<a class="text-[#16e16e] transition-colors hover:underline" href="/webrings">sillies</a>
-			<a class="text-[#16e16e] transition-colors hover:underline" href="/misc">/misc</a>
+			<a class="text-[#16e16e] transition-colors font-bold" data-cursor="HOME" href="/">/</a>
+			<a class="text-[#16e16e] transition-colors hover:underline" data-cursor="ABOUT" href="/about"
+				>/about</a
+			>
+			<a class="text-[#16e16e] transition-colors hover:underline" data-cursor="BLOG" href="/blog"
+				>/blog</a
+			>
+			<a
+				class="text-[#16e16e] transition-colors hover:underline"
+				data-cursor="PROJECTS"
+				href="/projects">/projects</a
+			>
+			<a class="text-[#16e16e] transition-colors hover:underline" data-cursor=":3" href="/webrings"
+				>sillies</a
+			>
+			<a class="text-[#16e16e] transition-colors hover:underline" data-cursor="MISC" href="/misc"
+				>/misc</a
+			>
 		</div>
 		<div class="flex flex-wrap justify-center gap-6 text-sm text-gray-400">
 			<a

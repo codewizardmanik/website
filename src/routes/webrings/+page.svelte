@@ -68,12 +68,16 @@
 		<h2 class="text-5xl font-['Instrument_Serif'] text-[#16e16e] mb-1">sillies!</h2>
 		<p class="text-xs text-[#ff69b4] italic mb-4">(warning: kinda broken)</p>
 		<div class="flex flex-wrap justify-center gap-6 text-sm font-['Funnel_Display']">
-			<a class="text-[#16e16e] transition-colors" href="/">/</a>
-			<a class="text-[#16e16e] transition-colors" href="/about">/about</a>
-			<a class="text-[#16e16e] transition-colors" href="/blog">/blog</a>
-			<a class="text-[#16e16e] transition-colors" href="/projects">/projects</a>
-			<a class="transition-colors font-bold text-[#16e16e]" href="/webrings">sillies</a>
-			<a class="text-[#16e16e] transition-colors" href="/misc">/misc</a>
+			<a class="text-[#16e16e] transition-colors" data-cursor="HOME" href="/">/</a>
+			<a class="text-[#16e16e] transition-colors" data-cursor="ABOUT" href="/about">/about</a>
+			<a class="text-[#16e16e] transition-colors" data-cursor="BLOG" href="/blog">/blog</a>
+			<a class="text-[#16e16e] transition-colors" data-cursor="PROJECTS" href="/projects"
+				>/projects</a
+			>
+			<a class="transition-colors font-bold text-[#16e16e]" data-cursor=":3" href="/webrings"
+				>sillies</a
+			>
+			<a class="text-[#16e16e] transition-colors" data-cursor="MISC" href="/misc">/misc</a>
 		</div>
 
 		<hr class="w-[80%] my-4 opacity-20 border-[#16e16e]" />
@@ -267,3 +271,9 @@
 		<hr class="w-[80%] my-6 opacity-20 border-[#16e16e]" />
 	</div>
 </main>
+
+<style>
+	:global(a) {
+		color: #16e16e !important;
+	}
+</style>

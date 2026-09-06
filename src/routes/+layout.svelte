@@ -1,5 +1,6 @@
 <script lang="ts">
 	import './layout.css';
+	import Cursor from '$lib/Cursor.svelte';
 	import favicon from '$lib/assets/favicon.svg';
 	import inactiveFavicon from '$lib/assets/inactive.svg';
 	import { onMount } from 'svelte';
@@ -161,6 +162,8 @@
 			</div>
 		</div>
 	</aside>
+
+	<Cursor />
 
 	<!-- PAGE CONTENT WRAPPER -->
 	<div class="relative z-10 w-full h-full px-6 md:px-28">

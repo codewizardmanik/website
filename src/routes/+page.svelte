@@ -124,32 +124,43 @@
 			<a
 				class="transition-colors hover:underline"
 				href="https://github.com/codewizardmanik"
-				target="_blank">github</a
+				target="_blank"
+				data-cursor="GITHUB">github</a
 			>
 			<a
 				class="transition-colors hover:underline"
 				href="https://www.youtube.com/@codewizardmanik"
-				target="_blank">yt</a
+				target="_blank"
+				data-cursor="YOUTUBE">yt</a
 			>
 			<a
 				class="transition-colors hover:underline"
 				href="https://www.instagram.com/m4n1k.sh/"
-				target="_blank">ig</a
-			> <a class="transition-colors hover:underline" href="mailto:m4.sh@tuta.io">email</a>
+				target="_blank"
+				data-cursor="INSTAGRAM">ig</a
+			>
+			<a class="transition-colors hover:underline" href="mailto:m4.sh@tuta.io" data-cursor="EMAIL"
+				>email</a
+			>
 			<a
 				class="transition-colors hover:underline"
 				href="https://www.linkedin.com/in/manik-sharma-30b4a9419/"
-				target="_blank">linkedin</a
+				target="_blank"
+				data-cursor="LINKEDIN">linkedin</a
 			>
-			<a class="transition-colors hover:underline" href="https://vncl.xyz" target="_blank"
-				>""company"" website</a
+			<a
+				class="transition-colors hover:underline"
+				href="https://vncl.xyz"
+				target="_blank"
+				data-cursor="VINCULUM">""company"" website</a
 			>
 		</div>
 		<p class="text-xs text-gray-500">
 			my links are also available @ <a
 				class="text-[#16e16e] hover:underline"
 				href="https://links.maniksharma.xyz"
-				target="_blank">https://links.maniksharma.xyz</a
+				target="_blank"
+				data-cursor="LINKपेड़">https://links.maniksharma.xyz</a
 			>
 		</p>
 		<div class="text-[11px] text-gray-400 mt-2 max-w-md">
@@ -157,19 +168,22 @@
 			<a
 				href="https://www.youtube.com/watch?v=3eD4CrAmwNk"
 				target="_blank"
-				class="text-[#16e16e] hover:underline">click here (creep x call me maybe)</a
+				class="text-[#16e16e] hover:underline"
+				data-cursor="BANGER SONG #1">click here (creep x call me maybe)</a
 			>
 			or
 			<a
 				href="https://open.spotify.com/track/5rUFgYSgfDajlankhu3Kld?si=e2105c0d36904c19"
 				target="_blank"
-				class="text-[#16e16e] hover:underline">here (all mine)</a
+				class="text-[#16e16e] hover:underline"
+				data-cursor="BANGER SONG #2">here (all mine)</a
 			>
 			or
 			<a
 				href="https://open.spotify.com/track/6b37xrsNCWYIUphFBazqD6?si=b346bd012bea4270"
 				target="_blank"
-				class="text-[#16e16e] hover:underline">here (me gustas tu)</a
+				class="text-[#16e16e] hover:underline"
+				data-cursor="BANGER SONG #3">here (me gustas tu)</a
 			>
 		</div>
 	</section>

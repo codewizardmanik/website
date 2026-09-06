@@ -19,9 +19,13 @@
 		class="flex flex-col items-center justify-center my-auto w-full max-w-xl mx-auto px-4 text-center"
 	>
 		{#if page.status === 404}
-			<h1 class="text-5xl font-['Instrument_Serif'] text-[#16e16e] mb-4">404 (page not found)</h1>
-			<a href="/" class="text-[#16e16e] hover:underline transition-colors mt-2 inline-block"
-				>go back home</a
+			<h1 class="text-5xl font-['Instrument_Serif'] text-[#16e16e] mb-4">
+				you seem to be lost <span class="text-[#ff69b4]">(404)</span>
+			</h1>
+			<a
+				href="/"
+				class="text-[#16e16e] hover:underline transition-colors mt-2 inline-block"
+				data-cursor="HOME">go back home</a
 			>
 			<p class="text-xs font-mono text-gray-400 mt-6">
 				if you think this is a mistake, please <a
@@ -31,10 +35,12 @@
 			</p>
 		{:else}
 			<h1 class="text-5xl font-['Instrument_Serif'] text-[#16e16e] mb-4">
-				{page.status}: {page.error?.message}
+				<span class="text-[#ff69b4]">{page.status}</span>: {page.error?.message}
 			</h1>
-			<a href="/" class="text-[#16e16e] hover:underline transition-colors mt-2 inline-block"
-				>go back home</a
+			<a
+				href="/"
+				class="text-[#16e16e] hover:underline transition-colors mt-2 inline-block"
+				data-cursor="HOME">go back home</a
 			>
 			<p class="text-xs text-gray-400 mt-6">
 				if you think this is a mistake, please <a

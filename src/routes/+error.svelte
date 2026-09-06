@@ -30,7 +30,8 @@
 			<p class="text-xs font-mono text-gray-400 mt-6">
 				if you think this is a mistake, please <a
 					href="mailto:m4.sh@tuta.io"
-					class="text-[#16e16e] hover:underline transition-colors">contact me</a
+					class="text-[#16e16e] hover:underline transition-colors"
+					data-cursor="CONTACT ME">contact me</a
 				>
 			</p>
 		{:else}
@@ -45,7 +46,8 @@
 			<p class="text-xs text-gray-400 mt-6">
 				if you think this is a mistake, please <a
 					href="mailto:m4.sh@tuta.io"
-					class="text-[#16e16e] hover:underline transition-colors">contact me</a
+					class="text-[#16e16e] hover:underline transition-colors"
+					data-cursor="CONTACT ME">contact me</a
 				>
 			</p>
 		{/if}

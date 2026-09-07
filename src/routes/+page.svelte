@@ -92,11 +92,15 @@
 				im part of my schools tech club (well 2 of them), <a
 					class="text-[#16e16e] hover:underline"
 					href="https://robonexus46.vercel.app/"
+					data-cursor="ROBONEXUS"
 					target="_blank">robonexus</a
 				>
 				and
-				<a class="text-[#16e16e] hover:underline" href="https://techsyndicate.us" target="_blank"
-					>tech syndicate</a
+				<a
+					class="text-[#16e16e] hover:underline"
+					href="https://techsyndicate.us"
+					target="_blank"
+					data-cursor="TECH SYNDICATE">tech syndicate</a
 				>
 			</p>
 		</div>

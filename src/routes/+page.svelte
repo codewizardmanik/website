@@ -13,6 +13,13 @@
 	let quote = $state(quotes[0]);
 	let lastIndex = -1;
 	let interval: ReturnType<typeof setInterval>;
+	function handleWheel(e: WheelEvent) {
+		e.preventDefault();
+
+		const main = e.currentTarget as HTMLElement;
+
+		main.scrollTop += e.deltaY * 7.5;
+	}
 	onMount(() => {
 		interval = setInterval(() => {
 			let index;
@@ -21,7 +28,14 @@
 			} while (index === lastIndex);
 			lastIndex = index;
 			quote = quotes[index];
-		}, 4000);
+		}, 3500);
+		const main = document.querySelector('main');
+
+		main?.addEventListener('wheel', handleWheel, { passive: false });
+
+		return () => {
+			main?.removeEventListener('wheel', handleWheel);
+		};
 	});
 	onDestroy(() => {
 		clearInterval(interval);

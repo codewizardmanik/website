@@ -14,6 +14,13 @@
 	let lastIndex = -1;
 	let interval: ReturnType<typeof setInterval>;
 	function handleWheel(e: WheelEvent) {
+		const isChrome =
+			/Chrome/.test(navigator.userAgent) && !/(Edg|OPR|Brave)/.test(navigator.userAgent);
+
+		if (!isChrome) {
+			return; // let Firefox/other browsers scroll normally
+		}
+
 		e.preventDefault();
 
 		const main = e.currentTarget as HTMLElement;

@@ -19,21 +19,33 @@
 		<div class="flex flex-col gap-3">
 			<a
 				href="/posts/why-ai-is-good-but-bad.txt"
-				class="text-[#16e16e] hover:underline transition-colors">first post</a
+				class="text-[#16e16e] hover:underline transition-colors"
+				data-cursor="why ai is good, but bad.">first post</a
 			>
 			<a
 				href="/posts/me-yapping-about-vehicles.txt"
-				class="text-[#16e16e] hover:underline transition-colors">second post</a
+				class="text-[#16e16e] hover:underline transition-colors"
+				data-cursor="me yapping about vehicles">second post</a
 			>
 			<a
 				href="/posts/poem-about-a-stray.txt"
-				class="text-[#16e16e] hover:underline transition-colors">third post</a
+				class="text-[#16e16e] hover:underline transition-colors"
+				data-cursor="poem about a stray">third post</a
 			>
-			<a href="/posts/story6.txt" class="text-[#16e16e] hover:underline transition-colors"
-				>fourth post</a
+			<a
+				href="/posts/story6.txt"
+				class="text-[#16e16e] hover:underline transition-colors"
+				data-cursor="as the world caves in">fourth post</a
 			>
-			<a href="/posts/nobodytalks.txt" class="text-[#16e16e] hover:underline transition-colors"
-				>fifth post</a
+			<a
+				href="/posts/nobodytalks.txt"
+				class="text-[#16e16e] hover:underline transition-colors"
+				data-cursor="nobody talks.">fifth post</a
+			>
+			<a
+				href="/posts/poem-cycle.txt"
+				class="text-[#16e16e] hover:underline transition-colors"
+				data-cursor="the cycle">sixth post</a
 			>
 		</div>
 		<p class="text-xs text-gray-400 pt-2">btw these may/may not remain .txt files</p>

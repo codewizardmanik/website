@@ -52,6 +52,16 @@
 				class="text-[#16e16e] hover:underline transition-colors"
 				data-cursor="don't wait up. CW: suicide, gore">don't wait up.</a
 			>
+			<a
+				href="/posts/CW-story8.txt"
+				class="text-[#16e16e] hover:underline transition-colors"
+				data-cursor="the devil's fence CW: drugs">the devil's fence</a
+			>
+			<a
+				href="/posts/CW-story9.txt"
+				class="text-[#16e16e] hover:underline transition-colors"
+				data-cursor="the devil's fence - extended CW: drugs">the devil's fence - extended</a
+			>
 		</div>
 		<p class="text-xs text-gray-400 pt-2">btw these may/may not remain .txt files</p>
 	</div>

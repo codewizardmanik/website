@@ -20,32 +20,37 @@
 			<a
 				href="/posts/why-ai-is-good-but-bad.txt"
 				class="text-[#16e16e] hover:underline transition-colors"
-				data-cursor="why ai is good, but bad.">first post</a
+				data-cursor="why ai is good, but bad.">why ai is good, but bad.</a
 			>
 			<a
 				href="/posts/me-yapping-about-vehicles.txt"
 				class="text-[#16e16e] hover:underline transition-colors"
-				data-cursor="me yapping about vehicles">second post</a
+				data-cursor="me yapping about vehicles">my yapping about vehicles</a
 			>
 			<a
 				href="/posts/poem-about-a-stray.txt"
 				class="text-[#16e16e] hover:underline transition-colors"
-				data-cursor="poem about a stray">third post</a
+				data-cursor="poem about a stray">poem about a stray</a
 			>
 			<a
 				href="/posts/story6.txt"
 				class="text-[#16e16e] hover:underline transition-colors"
-				data-cursor="as the world caves in">fourth post</a
+				data-cursor="as the world caves in">as the world caves in</a
 			>
 			<a
 				href="/posts/nobodytalks.txt"
 				class="text-[#16e16e] hover:underline transition-colors"
-				data-cursor="nobody talks.">fifth post</a
+				data-cursor="nobody talks.">nobody talks.</a
 			>
 			<a
 				href="/posts/poem-cycle.txt"
 				class="text-[#16e16e] hover:underline transition-colors"
-				data-cursor="the cycle">sixth post</a
+				data-cursor="the cycle">the cycle</a
+			>
+			<a
+				href="/posts/CW-story7.txt"
+				class="text-[#16e16e] hover:underline transition-colors"
+				data-cursor="don't wait up. CW: suicide, gore">don't wait up.</a
 			>
 		</div>
 		<p class="text-xs text-gray-400 pt-2">btw these may/may not remain .txt files</p>

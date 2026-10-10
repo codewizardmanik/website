@@ -67,7 +67,7 @@
 			<a
 				href="/posts/behappy.txt"
 				class="text-[#16e16e] hover:underline transition-colors"
-				data-cursor="a fun lil poem">be happy :D</a
+				data-cursor="a fun lil poem (be happy :D)">keep the kid alive</a
 			>
 		</div>
 		<p class="text-xs text-gray-400 pt-2">btw these may/may not remain .txt files</p>

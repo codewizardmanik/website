@@ -20,49 +20,54 @@
 			<a
 				href="/posts/why-ai-is-good-but-bad.txt"
 				class="text-[#16e16e] hover:underline transition-colors"
-				data-cursor="why ai is good, but bad.">why ai is good, but bad.</a
+				data-cursor="tldr: use ai in moderation">why ai is good, but bad.</a
 			>
 			<a
 				href="/posts/me-yapping-about-vehicles.txt"
 				class="text-[#16e16e] hover:underline transition-colors"
-				data-cursor="me yapping about vehicles">my yapping about vehicles</a
+				data-cursor="weird ahh plan">my yapping about vehicles</a
 			>
 			<a
 				href="/posts/poem-about-a-stray.txt"
 				class="text-[#16e16e] hover:underline transition-colors"
-				data-cursor="poem about a stray">poem about a stray</a
+				data-cursor="poem about a stray dawg">poem about a stray</a
 			>
 			<a
 				href="/posts/story6.txt"
 				class="text-[#16e16e] hover:underline transition-colors"
-				data-cursor="as the world caves in">as the world caves in</a
+				data-cursor="sed story">as the world caves in</a
 			>
 			<a
 				href="/posts/nobodytalks.txt"
 				class="text-[#16e16e] hover:underline transition-colors"
-				data-cursor="nobody talks.">nobody talks.</a
+				data-cursor="a funni break">nobody talks.</a
 			>
 			<a
 				href="/posts/poem-cycle.txt"
 				class="text-[#16e16e] hover:underline transition-colors"
-				data-cursor="the cycle">the cycle</a
+				data-cursor="this leads to nothing lmaoo">the cycle</a
 			>
 			<a
 				href="/posts/CW-story7.txt"
 				class="text-[#16e16e] hover:underline transition-colors"
-				data-cursor="don't wait up. | CW: suicide, gore">don't wait up. | CW: suicide, gore</a
+				data-cursor="horror? idfk | CW: suicide, gore">don't wait up. | CW: suicide, gore</a
 			>
 			<a
 				href="/posts/CW-story8.txt"
 				class="text-[#16e16e] hover:underline transition-colors"
-				data-cursor="the devil's fence | CW: drugs, addiction"
+				data-cursor="don't do drugs, kids! | CW: drugs, addiction"
 				>the devil's fence | CW: drugs, addiction</a
 			>
 			<a
 				href="/posts/CW-story9.txt"
 				class="text-[#16e16e] hover:underline transition-colors"
-				data-cursor="the devil's fence - extended | CW: drugs, addiction"
+				data-cursor="don't do drugs, kids! (extended) | CW: drugs, addiction"
 				>the devil's fence - extended | CW: drugs, addiction</a
+			>
+			<a
+				href="/posts/behappy.txt"
+				class="text-[#16e16e] hover:underline transition-colors"
+				data-cursor="a fun lil poem">be happy :D</a
 			>
 		</div>
 		<p class="text-xs text-gray-400 pt-2">btw these may/may not remain .txt files</p>

@@ -19,6 +19,7 @@
 		<p>
 			My name is Manik Sharma. I'm 14 (in 2026). I like to code, do cryptics, do random stuff with
 			arduinos and such, read books (including <a
+				data-cursor="GOATED BOOK"
 				href="https://omniscient-readers-viewpoint.fandom.com/wiki/Omniscient_Reader%27s_Viewpoint"
 				class="text-[#16e16e] italic hover:underline font-mono"
 				target="_blank">orv</a

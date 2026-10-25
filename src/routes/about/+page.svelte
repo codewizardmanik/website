@@ -9,7 +9,7 @@
 </svelte:head>
 
 <main
-	class="min-h-screen bg-[#080808] text-white flex flex-col items-center justify-center text-center p-8 selection:bg-[#16e16e] selection:text-black font-['Funnel_Display']"
+	class="min-h-screen text-white flex flex-col items-center justify-center text-center p-8 selection:bg-[#16e16e] selection:text-black font-['Funnel_Display']"
 >
 	<h2 class="text-5xl font-['Instrument_Serif'] text-[#16e16e] mb-6">
 		hi gng <span class="text-[#ff69b4]">(whoami)</span>

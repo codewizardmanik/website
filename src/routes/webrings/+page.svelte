@@ -62,7 +62,7 @@
 </svelte:head>
 
 <main
-	class="min-h-screen bg-[#080808] text-white flex flex-col items-center justify-between p-8 selection:bg-[#16e16e] selection:text-black font-['Funnel_Display']"
+	class="min-h-screen text-white flex flex-col items-center justify-between p-8 selection:bg-[#16e16e] selection:text-black font-['Funnel_Display']"
 >
 	<div class="flex flex-col items-center w-full max-w-xl mx-auto py-8">
 		<h2 class="text-5xl font-['Instrument_Serif'] text-[#16e16e] mb-1">sillies!</h2>
@@ -273,7 +273,7 @@
 </main>
 
 <style>
-	:global(a) {
+	a {
 		color: #16e16e !important;
 	}
 </style>

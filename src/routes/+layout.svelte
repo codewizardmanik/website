@@ -8,7 +8,6 @@
 
 	let { children } = $props();
 
-	// Favicon visibility state
 	let timeout: ReturnType<typeof setTimeout>;
 
 	function updateFavicon() {
@@ -35,7 +34,6 @@
 		};
 	});
 
-	// Global Marquee state & Navigation tracking
 	const marqueeText = 'MANIK SHARMA • MANIK SHARMA ✦ MANIK SHARMA • '.repeat(16);
 
 	let leftOffset = $state(0);
@@ -47,7 +45,6 @@
 	let isMounted = false;
 	let resetTimeout: ReturnType<typeof setTimeout>;
 
-	// Detect page navigation changes
 	$effect(() => {
 		const currentPath = page.url.pathname;
 
@@ -68,7 +65,6 @@
 
 		function updateMarquee() {
 			if (isResetting) {
-				// Move backward quickly until it reaches 0 (the start)
 				leftOffset += 6;
 				rightOffset += 6;
 
@@ -79,7 +75,6 @@
 					isResetting = false;
 					isPaused = true;
 
-					// Delay before starting scrolling again
 					resetTimeout = setTimeout(() => {
 						isPaused = false;
 					}, 250);
@@ -114,61 +109,54 @@
 </svelte:head>
 
 <div
-	class="h-screen w-screen overflow-hidden bg-black text-white relative selection:bg-[#16e16e] selection:text-black font-['Funnel_Display']"
+	class="relative h-screen w-screen overflow-hidden bg-black font-['Funnel_Display'] text-white selection:bg-[#16e16e] selection:text-black"
 >
 	<!-- LEFT MARQUEE -->
 	<aside
-		class="hidden md:flex fixed top-0 bottom-0 left-6 w-12 bg-black z-50 border-x border-white/30 overflow-hidden pointer-events-none select-none flex-col items-center"
+		class="pointer-events-none fixed bottom-0 left-6 top-0 z-50 hidden w-12 flex-col items-center overflow-hidden border-x border-white/30 bg-black select-none md:flex"
 	>
 		<div
 			class="absolute flex flex-col items-center whitespace-nowrap will-change-transform"
 			style="transform: translateY({leftOffset}px);"
 		>
-			<div
-				class="pointer-events-auto flex flex-col items-center text-lg md:text-xl font-bold tracking-widest text-white py-2 [writing-mode:vertical-rl]"
-				data-cursor="hehe my website yes yes how grand"
-			>
-				{marqueeText}
-			</div>
-
-			<div
-				class="flex flex-col items-center text-lg md:text-xl font-bold tracking-widest text-white py-2 [writing-mode:vertical-rl]"
-				aria-hidden="true"
-			>
-				{marqueeText}
-			</div>
+			{#each Array(4) as _, i}
+				<div
+					class="flex flex-col items-center py-2 text-lg font-bold tracking-widest text-white md:text-xl [writing-mode:vertical-rl]"
+					class:pointer-events-auto={i === 0}
+					aria-hidden={i !== 0}
+					data-cursor={i === 0 ? 'hehe my website yes yes how grand' : undefined}
+				>
+					{marqueeText}
+				</div>
+			{/each}
 		</div>
 	</aside>
 
 	<!-- RIGHT MARQUEE - FACING INWARD -->
 	<aside
-		class="hidden md:flex fixed top-0 bottom-0 right-6 w-12 bg-black z-50 border-x border-white/30 overflow-hidden pointer-events-none select-none flex-col items-center"
+		class="pointer-events-none fixed bottom-0 right-6 top-0 z-50 hidden w-12 flex-col items-center overflow-hidden border-x border-white/30 bg-black select-none md:flex"
 	>
 		<div
 			class="absolute flex flex-col items-center whitespace-nowrap will-change-transform"
 			style="transform: translateY({rightOffset}px);"
 		>
-			<!-- Same writing mode as left, but flipped 180° -->
-			<div
-				class="pointer-events-auto flex flex-col items-center text-lg md:text-xl font-bold tracking-widest text-white py-2 [writing-mode:vertical-rl] rotate-180"
-				data-cursor="here too"
-			>
-				{marqueeText}
-			</div>
-
-			<div
-				class="flex flex-col items-center text-lg md:text-xl font-bold tracking-widest text-white py-2 [writing-mode:vertical-rl] rotate-180"
-				aria-hidden="true"
-			>
-				{marqueeText}
-			</div>
+			{#each Array(4) as _, i}
+				<div
+					class="flex flex-col items-center py-2 text-lg font-bold tracking-widest text-white md:text-xl [writing-mode:vertical-rl] rotate-180"
+					class:pointer-events-auto={i === 0}
+					aria-hidden={i !== 0}
+					data-cursor={i === 0 ? 'here too' : undefined}
+				>
+					{marqueeText}
+				</div>
+			{/each}
 		</div>
 	</aside>
 
 	<Cursor />
 
 	<!-- PAGE CONTENT WRAPPER -->
-	<div class="relative z-10 w-full h-full px-6 md:px-28">
+	<div class="relative z-10 h-full w-full px-6 md:px-28">
 		{@render children()}
 	</div>
 </div>

@@ -226,7 +226,11 @@
 
 	<div class="identity" bind:this={identity}>
 		<div class="hi">hi, im</div>
-		<h1>manik</h1>
+		<img
+			class="transition-transform duration-300 hover:scale-[1.05]"
+			alt="manik sharma"
+			src="logotype.png"
+		/>
 		<div class="quote">
 			{#key quote}
 				<span transition:fly={{ y: 12, duration: 300 }}>

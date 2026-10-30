@@ -332,28 +332,7 @@
 		<button type="submit">send it straight to me!</button>
 	</form>
 
-	<div class="club-info -mb-5">
-		<p>
-			im part of my schools tech club (well 2 of them),
-			<a
-				href="https://robonexus46.vercel.app/"
-				data-cursor="ROBONEXUS"
-				target="_blank"
-				rel="noreferrer"
-			>
-				robonexus
-			</a>
-			and
-			<a
-				href="https://techsyndicate.us"
-				data-cursor="TECH SYNDICATE"
-				target="_blank"
-				rel="noreferrer"
-			>
-				tech syndicate
-			</a>
-		</p>
-	</div>
+	<div class="club-info"></div>
 
 	<nav class="socials" aria-label="Social links">
 		<a href="https://github.com/codewizardmanik" target="_blank" rel="noreferrer">github</a>
@@ -473,11 +452,6 @@
 			letter-spacing 0.3s ease,
 			text-shadow 0.3s ease;
 		cursor: default;
-	}
-
-	.identity:hover h1 {
-		letter-spacing: 1px;
-		text-shadow: 0 0 22px #16e16e30;
 	}
 
 	.quote {
@@ -763,7 +737,7 @@
 	.socials {
 		position: absolute;
 		right: 2.3%;
-		bottom: 4.5%;
+		bottom: 6%;
 		z-index: 4;
 		display: flex;
 		align-items: center;
@@ -789,7 +763,7 @@
 	.all-links {
 		position: absolute;
 		right: 2.3%;
-		bottom: 1.5%;
+		bottom: 3%;
 		z-index: 4;
 		color: #a3a3a3;
 		font-size: 13px;

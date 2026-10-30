@@ -24,7 +24,27 @@
 				class="text-[#16e16e] italic hover:underline font-mono"
 				target="_blank">orv</a
 			>, I highly recommend it), listen to music, use fedora linux and so on and so forth bla bla
-			bla (i have wayy too many interests for my own good 😭 help me)
+			bla (i have wayy too many interests for my own good 😭) also, im part of my schools tech club
+			(well 2 of them),
+			<a
+				href="https://robonexus46.vercel.app/"
+				data-cursor="ROBONEXUS"
+				target="_blank"
+				class="text-[#16e16e] hover:underline"
+				rel="noreferrer"
+			>
+				robonexus
+			</a>
+			and
+			<a
+				href="https://techsyndicate.us"
+				data-cursor="TECH SYNDICATE"
+				target="_blank"
+				class="text-[#16e16e] hover:underline"
+				rel="noreferrer"
+			>
+				tech syndicate
+			</a>
 		</p>
 		<div class="text-left text-xs text-gray-400">
 			<p class="font-mono text-[#16e16e]/80">abh aur kya janna h, bhaag jao</p>

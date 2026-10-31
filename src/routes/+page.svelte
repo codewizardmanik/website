@@ -335,8 +335,8 @@
 	<div class="club-info"></div>
 
 	<nav class="socials" aria-label="Social links">
-		<a href="https://github.com/codewizardmanik" target="_blank" rel="noreferrer">github</a>
-		<a href="https://www.youtube.com/@codewizardmanik" target="_blank" rel="noreferrer">yt</a>
+		<a href="https://github.com/leekproof" target="_blank" rel="noreferrer">github</a>
+		<a href="https://www.youtube.com/@leekproof" target="_blank" rel="noreferrer">yt</a>
 		<a href="https://www.instagram.com/m4n1k.sh/" target="_blank" rel="noreferrer">ig</a>
 		<a href="mailto:headhoncho@maniksharma.xyz">email</a>
 		<a href="https://www.linkedin.com/in/manik-sharma-30b4a9419/" target="_blank" rel="noreferrer"
